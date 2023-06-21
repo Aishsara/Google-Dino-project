@@ -1,119 +1,41 @@
- *
- {
-  background-color: white;
- }
- h1{
-      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-      text-align: center;
-      margin:auto;
- }
- h3{
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- position:relative;
- top:30px;
- left:800px;
+body{
+    background-image: url(wallpapersden.com_tiny-tina-s-wonderlands-gaming-background_1920x1080.jpg);
 }
-#score1
+.header
 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position:relative;
-  top: 50px;
-  left:800px;
+    text-align: center;
+    margin-top:250px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:white;
+    background-image: url("");
 }
-#score
+.btn
 {
-  font-size: 20px;
-  position: relative;
-  top:50px;
-  left:800px;
+    text-align: center;
+    display:block;
+    margin:0 auto;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
-#max
+.btn1
 {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  position:relative;
-  top:50px;
-  left:300px;
+    text-align: center;
+    display:block;
+    margin:0 auto;
+    margin-top: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    box-shadow: 5 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    
+   
 }
-#max1
+.vgames
 {
-  position:relative;
-  top:50px;
-  left:310px;
-}
-fieldset{
-  position:relative;
-  left:100px;                      
-
-
-}
-.game
-{
-  width: 600px;
-  height: 300px;
-  border: 1px solid white;
-  margin: auto;
-  position:relative;
-  top:50px;
-}
-#dino
-{
-  width: 50px;
-  height: 50px;
-  background-image: url(trex.png); 
-  background-size: 70px 60px;
-  position: relative;
-  top: 230px;
-
-  
+    color:white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
 }
 
-.jump
-{
-  animation: jump 0.3s linear;
 
-}
-@keyframes jump{
-    0%
-    {
-      top:150px;
-    }
-    30%
-    {
-      top:130px;
-    }
-    50%{
-      top:80px;
-     }
-
-     80%
-     {
-      top: 130px;
-     }
-     100%
-     {
-      top: 150px;
-     }
-}
-
-#cactus
-{
-  width: 40px;
-  height: 40px;
-  background-color: white;
-  background-image: url(cac.jpeg);  
-  background-size: 40px 40px;
-  position:relative;
-  top: 200px;
-  left:590px;
-
-  animation: block  1s infinite linear ;
-}
-
-@keyframes block  {
-        0% {
-          left:570px;
-        }
-       100% {
-        left: 0px;
-       }
-}
