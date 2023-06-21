@@ -1,0 +1,119 @@
+ *
+ {
+  background-color: white;
+ }
+ h1{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      text-align: center;
+      margin:auto;
+ }
+ h3{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+ position:relative;
+ top:30px;
+ left:800px;
+}
+#score1
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position:relative;
+  top: 50px;
+  left:800px;
+}
+#score
+{
+  font-size: 20px;
+  position: relative;
+  top:50px;
+  left:800px;
+}
+#max
+{
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  position:relative;
+  top:50px;
+  left:300px;
+}
+#max1
+{
+  position:relative;
+  top:50px;
+  left:310px;
+}
+fieldset{
+  position:relative;
+  left:100px;                      
+
+
+}
+.game
+{
+  width: 600px;
+  height: 300px;
+  border: 1px solid white;
+  margin: auto;
+  position:relative;
+  top:50px;
+}
+#dino
+{
+  width: 50px;
+  height: 50px;
+  background-image: url(trex.png); 
+  background-size: 70px 60px;
+  position: relative;
+  top: 230px;
+
+  
+}
+
+.jump
+{
+  animation: jump 0.3s linear;
+
+}
+@keyframes jump{
+    0%
+    {
+      top:150px;
+    }
+    30%
+    {
+      top:130px;
+    }
+    50%{
+      top:80px;
+     }
+
+     80%
+     {
+      top: 130px;
+     }
+     100%
+     {
+      top: 150px;
+     }
+}
+
+#cactus
+{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  background-image: url(cac.jpeg);  
+  background-size: 40px 40px;
+  position:relative;
+  top: 200px;
+  left:590px;
+
+  animation: block  1s infinite linear ;
+}
+
+@keyframes block  {
+        0% {
+          left:570px;
+        }
+       100% {
+        left: 0px;
+       }
+}
